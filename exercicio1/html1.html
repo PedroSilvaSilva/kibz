@@ -1,35 +1,55 @@
-Criar uma Página Básica:
+<!-- Criar uma Página Básica:
 criar extrutura basica com !+enter basico do hmtl
-Crie uma página HTML básica que inclua um cabeçalho (<header>), um corpo (<body>) com alguns parágrafos de texto, uma imagem (<img>) e um link (<a>).
-
-
+Crie uma página HTML básica que inclua um cabeçalho (<header>), um corpo (<body>) com alguns parágrafos de texto, uma imagem (<img>) e um link (<a>). -->
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <style>
+    ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1px;
+      flex-direction: row;
+      list-style: none;
+    }
+    li {
+      width: 100%;
+      height: 150px;
+    }
+  </style>
+  <body>
     <header>
-        <nav>
-            <ul>
-                <li>Home</li>
-            </ul>
-        </nav>
+      <nav>
+        <ul>
+          <li><a href="/About"></a>Home</li>
+          <li>About</li>
+          <li>login</li>
+          <li>Notices</li>
+          <li>Blog</li>
+        </ul>
+      </nav>
     </header>
 
     <main>
-        <section>
-            <article>
-                <div>
-                    <p>a imagem e um teste para tag</p>
-                    <img src="./image/imgaem.webp" alt="minha imagem">
-                    <a href="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png">Minha imagem </a>
-                </div>
-            </article>
-        </section>
+      <section>
+        <article>
+          <figure>
+            <img
+              src="https://www.w3schools.com/tags/pic_trulli.jpg"
+              alt="imagem"
+            />
+            <figcaption>texto</figcaption>
+          </figure>
+        </article>
+      </section>
     </main>
-</body>
+
+    <main></main>
+  </body>
 </html>
